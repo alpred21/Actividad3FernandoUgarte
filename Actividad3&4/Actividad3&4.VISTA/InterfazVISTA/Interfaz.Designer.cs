@@ -1,6 +1,6 @@
 ﻿namespace SistemaPedidos.VISTAS
 {
-    partial class Interfas
+    partial class Interfaz
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfaz));
             listBox1 = new ListBox();
             panelcargarform = new Panel();
             pictureBox3 = new PictureBox();

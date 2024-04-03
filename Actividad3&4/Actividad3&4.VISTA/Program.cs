@@ -1,4 +1,6 @@
-namespace SistemaPedidos.VISTAS
+using SistemaPedidos.VISTAS;
+
+namespace Actividad3_4.VISTA
 {
     internal static class Program
     {
@@ -11,7 +13,7 @@ namespace SistemaPedidos.VISTAS
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Interfas());
+            Application.Run(new Interfaz());
         }
     }
 }

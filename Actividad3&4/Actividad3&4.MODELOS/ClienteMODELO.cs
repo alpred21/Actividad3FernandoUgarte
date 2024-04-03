@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaPedidos.Modelos
+namespace Actividad3_4.MODELOS
 {
     public class Cliente
     {

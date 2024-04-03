@@ -1,4 +1,4 @@
-﻿namespace SistemaPedidos.VISTAS
+﻿namespace Actividad3_4.VISTA
 {
     partial class Form1
     {

@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SistemaPedidos.DAL
+namespace Actividad3_4.DAL
 {
     public class conexion
     {
         public static string CONECTAR
         {
-            get { return @"Data Source=DESKTOP-UFS76DI\SQLEXPRESS; Initial Catalog=SistemaCRUD; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=PCA-33; Initial Catalog=SistemaCRUD; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
+            // DESKTOP-UFS76DI\SQLEXPRESS    
         }
         public static DataSet EjecutarDataSet(string consulta)
         {

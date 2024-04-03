@@ -1,12 +1,12 @@
-﻿using SistemaPedidos.Modelos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Actividad3_4.MODELOS;
 
-namespace SistemaPedidos.DAL
+namespace Actividad3_4.DAL
 {
     public class ClienteDal
     {
@@ -48,7 +48,7 @@ namespace SistemaPedidos.DAL
                                                             "apellido='" + cliente.Apellido + "'," +
                                                             "correoelectronico='" + cliente.CorreoElectronico + "'," +
                                                             "telefono='" + cliente.Telefono + "'," +
-                                                            "direccion='" + cliente.Direccion + "'"+
+                                                            "direccion='" + cliente.Direccion + "'" +
                                                 "where idcliente=" + cliente.IdCliente;
             conexion.Ejecutar(consulta);
         }

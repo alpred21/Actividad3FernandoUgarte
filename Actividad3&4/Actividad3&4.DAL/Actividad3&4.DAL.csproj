@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Actividad3_4.DAL</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
@@ -11,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SistemaPedidos.Modelos\SistemaPedidos.Modelos.csproj" />
+    <ProjectReference Include="..\Actividad3&amp;4.MODELOS\Actividad3&amp;4.MODELOS.csproj" />
   </ItemGroup>
 
 </Project>

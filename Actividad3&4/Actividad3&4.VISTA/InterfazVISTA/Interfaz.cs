@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace SistemaPedidos.VISTAS
 {
-    public partial class Interfas : Form
+    public partial class Interfaz : Form
     {
-        public Interfas()
+        public Interfaz()
         {
             InitializeComponent();
         }

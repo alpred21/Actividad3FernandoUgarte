@@ -1,13 +1,13 @@
-﻿using SistemaPedidos.DAL;
-using SistemaPedidos.Modelos;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Actividad3_4.DAL;
+using Actividad3_4.MODELOS;
 
-namespace SistemaPedidos.BSS
+namespace Actividad3_4.BSS
 {
     public class ClienteBss
     {
