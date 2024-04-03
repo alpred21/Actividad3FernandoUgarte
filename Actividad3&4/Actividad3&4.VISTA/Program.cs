@@ -1,4 +1,5 @@
 using SistemaPedidos.VISTAS;
+using SistemaPedidos.VISTAS.ClienteVistas;
 
 namespace Actividad3_4.VISTA
 {
@@ -13,7 +14,7 @@ namespace Actividad3_4.VISTA
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Interfaz());
+            Application.Run(new ClienteListarVista());
         }
     }
 }

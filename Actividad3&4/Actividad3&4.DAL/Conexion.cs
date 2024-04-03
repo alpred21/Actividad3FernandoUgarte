@@ -12,7 +12,7 @@ namespace Actividad3_4.DAL
     {
         public static string CONECTAR
         {
-            get { return @"Data Source=PCA-33; Initial Catalog=SistemaCRUD; Integrated Security=True; TrustServerCertificate=true;"; }
+            get { return @"Data Source=PCA-33; Initial Catalog=TAREA3; Integrated Security=True; TrustServerCertificate=true;"; }
             //get { return ConfigurationManager.ConnectionStrings["cadena"].ToString(); }
             // DESKTOP-UFS76DI\SQLEXPRESS    
         }

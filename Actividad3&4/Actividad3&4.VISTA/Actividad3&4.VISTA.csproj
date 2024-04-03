@@ -10,11 +10,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ClienteVISTA\" />
-    <Folder Include="PedidoVISTA\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Actividad3&amp;4.BSS\Actividad3&amp;4.BSS.csproj" />
     <ProjectReference Include="..\Actividad3&amp;4.MODELOS\Actividad3&amp;4.MODELOS.csproj" />
   </ItemGroup>

@@ -53,5 +53,15 @@ namespace SistemaPedidos.VISTAS.ClienteVistas
                 dataGridView1.DataSource = bss.ListarClienteBss();
             }
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

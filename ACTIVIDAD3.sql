@@ -1,4 +1,5 @@
-CREATE DATABASE SistemaCRUD
+CREATE DATABASE TAREA4
+;
 
 CREATE TABLE Cliente (
     IdCliente INT IDENTITY (1,1) NOT NULL,
@@ -62,3 +63,29 @@ insert into cliente values('Ulises' ,'Ibáñez' ,'ulises@gmail.com','+59169384752'
 
 select *
 from Cliente
+
+
+
+CREATE TABLE PEDIDO (
+IDPEDIDO INT IDENTITY (1,1) NOT NULL,
+IdCliente INT NOT NULL,
+FECHA DATETIME NOT NULL,
+TOTAL MONEY NOT NULL,
+ESTADO NVARCHAR (20) NOT NULL,
+PRIMARY KEY (IDPEDIDO),
+FOREIGN KEY (IdCliente) REFERENCES Cliente (IdCliente)
+);
+
+
+INSERT INTO PEDIDO (IdCliente, FECHA, TOTAL, ESTADO) 
+VALUES 
+(1, '2024-04-01 08:15:00', 50.00, 'En proceso'),
+(2, '2024-04-02 10:30:00', 75.50, 'Enviado'),
+(3, '2024-04-02 14:45:00', 120.25, 'Pendiente'),
+(4, '2024-04-03 09:20:00', 200.00, 'Cancelado'),
+(5, '2024-04-03 11:55:00', 85.75, 'En proceso'),
+(6, '2024-04-03 16:10:00', 150.50, 'Enviado'),
+(7, '2024-04-04 08:00:00', 90.00, 'En proceso'),
+(8, '2024-04-04 12:30:00', 175.25, 'En proceso');
+select *
+from PEDIDO
