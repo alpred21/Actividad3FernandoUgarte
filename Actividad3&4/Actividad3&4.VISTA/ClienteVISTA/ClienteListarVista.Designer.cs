@@ -59,7 +59,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(859, 342);
+            dataGridView1.Size = new Size(859, 301);
             dataGridView1.TabIndex = 0;
             // 
             // panel1
@@ -234,8 +234,8 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(859, 499);
-            Controls.Add(panel3);
             Controls.Add(dataGridView1);
+            Controls.Add(panel3);
             Controls.Add(panel1);
             Controls.Add(panel2);
             FormBorderStyle = FormBorderStyle.FixedSingle;
